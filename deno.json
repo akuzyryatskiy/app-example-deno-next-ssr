@@ -1,0 +1,7 @@
+{
+  "nodeModulesDir": "auto",
+  "tasks": {
+    "build": "deno run -A npm:next build",
+    "start": "deno run -A npm:next start -H 0.0.0.0 -p 8000"
+  }
+}
